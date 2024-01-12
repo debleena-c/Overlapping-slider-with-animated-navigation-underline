@@ -297,6 +297,7 @@ h1{font-size: 46px;font-weight: 600;margin: 0px 0px 20px;color: #b5fdec;}
         transform: scale(1);
     }
     .menu a{color: #fff !important;font-size: 18px !important;}
+    .marker{display: none !important;}
 }
 
 @media (max-width: 992px){
