@@ -203,6 +203,9 @@ h1{font-size: 46px;font-weight: 600;margin: 0px 0px 20px;color: #b5fdec;}
     .btn-lebel{
         font-size: 15px;
     }
+    .theme-inner-btn:last-child .btn-lebel{
+        font-size: 15px
+    } 
 
     .menu_bar{
         width: 40px;
@@ -308,7 +311,10 @@ h1{font-size: 46px;font-weight: 600;margin: 0px 0px 20px;color: #b5fdec;}
     .bn-text p{font-size: 16px;}
     .btn-lebel{
         font-size: 14px;
-    }    
+    }  
+    .theme-inner-btn:last-child .btn-lebel{
+        font-size: 14px
+    }  
     .header_main{
         padding: 18px 0px;
     }
