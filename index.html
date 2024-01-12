@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Clip path demo</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="keywords" content="" />
+        <meta property="og:locale" content="en_GB" />
+        <meta property='og:url' content='' />
+        <meta property='og:title' content='' />
+        <meta property='og:image' content='' />
+        <meta property='og:type' content='Website' />
+        <meta property='og:site_name' content='' />
+        <meta property='og:description' content='' />
+
+        <link rel="canonical" href="" />
+        <link rel='page icon' type='image/x-icon' href='' />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet"/>
+
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/jquery.min.js"></script>
+
+    </head>
+
+<body>
+	<header class="header_main" id="nav_top">
+		<div class="container">
+			<div class="menucontainer">
+				<a href="index.html" class="logo">
+                    <img src="images/demo-logo.png" alt="demo logo">
+                </a>
+				<nav class="navbar_area">
+					<ul class="menu_list" id="menu1">
+                        <!-- <div id="marker"></div> -->
+						<li class="menu active"><a href="#!" class="menu_link">Technology</a></li>
+						<li class="menu"><a href="#!" class="menu_link">Solutions</a></li>
+						<li class="menu"><a href="#!" class="menu_link">Newsroom</a></li>
+                        <li class="menu"><a href="#!" class="menu_link">company</a></li>
+					</ul>
+                    <ul class="menu_list menu_list_right" id="menu2">
+                        <!-- <div id="marker_right"></div> -->
+                        <li class="menu"><a href="#!" class="menu_link">Book a Demo</a></li>
+                        <li class="menu"><a href="#!" class="menu_link">Let's talk</a></li>
+                    </ul>
+				</nav>
+				<div class="menu_bar">
+					<span class="menubar1"></span>
+					<span class="menubar2"></span>
+                    <span class="menubar3"></span>
+				</div>
+			</div>
+		</div>
+	</header>
+    <section class="banner_main">
+        <div class="video-slide active">
+            <video src="images/948caddd.mp4" autoplay muted loop></video>
+            <div class="content">
+                <div class="container">
+                    <div class="bn-text">
+                        <h1>Lorem Ipsum Dolor Sit 1</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Dolores ipsa earum culpa quis ipsam quasi magni nihil iste voluptate esse?
+                            Aliquid consequuntur repellat sint dolore aut error numquam, temporibus quibusdam!</p>
+                        <a href="#!" class="theme-btn">
+                            <div class="theme-inner-btn">
+                                <span class="btn-lebel">Read more</span>
+                            </div>
+                            <div class="theme-inner-btn">
+                                <span class="btn-lebel">Read more</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="video-slide">
+            <video src="images/video (2160p).mp4" autoplay muted loop></video>
+            <div class="content">
+                <div class="container">
+                    <div class="bn-text">
+                        <h1>Lorem Ipsum Dolor Sit 2</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Dolores ipsa earum culpa quis ipsam quasi magni nihil iste voluptate esse?
+                            Aliquid consequuntur repellat sint dolore aut error numquam, temporibus quibusdam!</p>
+                            <a href="#!" class="theme-btn">
+                                <div class="theme-inner-btn">
+                                    <span class="btn-lebel">Read more</span>
+                                </div>
+                                <div class="theme-inner-btn">
+                                    <span class="btn-lebel">Read more</span>
+                                </div>
+                            </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="video-slide">
+            <video src="images/video (2160p) (1).mp4" autoplay muted loop></video>
+            <div class="content">
+                <div class="container">
+                    <div class="bn-text">
+                        <h1>Lorem Ipsum Dolor Sit 3</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Dolores ipsa earum culpa quis ipsam quasi magni nihil iste voluptate esse?
+                            Aliquid consequuntur repellat sint dolore aut error numquam, temporibus quibusdam!</p>
+                            <a href="#!" class="theme-btn">
+                                <div class="theme-inner-btn">
+                                    <span class="btn-lebel">Read more</span>
+                                </div>
+                                <div class="theme-inner-btn">
+                                    <span class="btn-lebel">Read more</span>
+                                </div>
+                            </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-list-indicator">
+            <div class="slider-btn active"></div>
+            <div class="slider-btn"></div>
+            <div class="slider-btn"></div>
+        </div>
+    </section>
+
+	<script src="js/custom.js"></script>
+    <!-- <script type="text/javascript">
+        
+        const marker = document.querySelector("#marker");
+        const item = document.querySelectorAll("#menu1 li");
+        const markerRight = document.querySelector("#marker_right");
+        const itemRight = document.querySelectorAll("#menu2 li");
+        function indicator(e){
+            marker.style.left = e.offsetLeft+"px";
+            marker.style.width = e.offsetWidth+"px";
+        }
+
+        item.forEach(link => {
+            link.addEventListener("mouseover", (e)=>{
+                indicator(e.target);
+            })
+            link.addEventListener("mouseleave", (e)=>{
+                marker.style.width = 0;
+            })
+        });
+
+
+        function indicatorRight(e){
+            markerRight.style.left = e.offsetLeft+"px";
+            markerRight.style.width = e.offsetWidth+"px";
+        }
+        itemRight.forEach(link => {
+            link.addEventListener("mouseover", (e)=>{
+                indicatorRight(e.target);
+                console.log(e);
+            })
+            link.addEventListener("mouseleave", (e)=>{
+                markerRight.style.width = 0;
+            })
+        })
+    </script> -->
+
+    <!-- <script type="text/javascript">
+        const marker = document.querySelector("#marker");
+        const item = document.querySelectorAll("#menu1 li");
+        const markerRight = document.querySelector("#marker_right");
+        const itemRight = document.querySelectorAll("#menu2 li");
+    
+        function setMarkerStyle(markerElement, e) {
+            markerElement.style.left = e.offsetLeft + "px";
+            markerElement.style.width = e.offsetWidth + "px";
+        }
+    
+        function handleMouseOver(e, markerElement) {
+            setMarkerStyle(markerElement, e.target);
+        }
+    
+        function handleMouseLeave(markerElement) {
+            markerElement.style.width = 0;
+        }
+    
+        document.getElementById("menu1").addEventListener("mouseover", (e) => {
+            if (e.target.tagName === "A") {
+                handleMouseOver(e, marker);
+            }
+        });
+    
+        document.getElementById("menu1").addEventListener("mouseleave", () => {
+            handleMouseLeave(marker);
+        });
+    
+        document.getElementById("menu2").addEventListener("mouseover", (e) => {
+            if (e.target.tagName === "A") {
+                handleMouseOver(e, markerRight);
+            }
+        });
+    
+        document.getElementById("menu2").addEventListener("mouseleave", () => {
+            handleMouseLeave(markerRight);
+        });
+    </script> -->
+
+    <script type="text/javascript">
+        function createMarker() {
+            const marker = document.createElement('div');
+            marker.classList.add('marker');
+            return marker;
+        }
+    
+        function indicator(marker, e) {
+            marker.style.left = e.offsetLeft + "px";
+            marker.style.width = e.offsetWidth + "px";
+        }
+    
+        function handleMouseOver(e) {
+            if (e.target.tagName === "A") {
+                const marker = e.currentTarget.querySelector('.marker');
+                indicator(marker, e.target);
+            }
+        }
+    
+        function handleMouseLeave(e) {
+            const marker = e.currentTarget.querySelector('.marker');
+            marker.style.width = 0;
+        }
+    
+        document.querySelectorAll('.menu_list').forEach(ul => {
+            const marker = createMarker();
+            ul.appendChild(marker);
+    
+            ul.addEventListener("mouseover", handleMouseOver);
+            ul.addEventListener("mouseleave", handleMouseLeave);
+        });
+    </script>
+
+</body>
+</html>
