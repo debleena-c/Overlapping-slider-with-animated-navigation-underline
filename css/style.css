@@ -324,6 +324,9 @@ h1{font-size: 46px;font-weight: 600;margin: 0px 0px 20px;color: #b5fdec;}
 @media (max-width: 576px){
     h1{font-size: 32px;}
     .logo img{max-width: 125px;}
+    .banner_main{
+        text-align: center !important;
+    }
 }
 
 @media (max-width: 480px){
