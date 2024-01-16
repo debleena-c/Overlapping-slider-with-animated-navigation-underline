@@ -275,7 +275,6 @@ h1{font-size: 46px;font-weight: 600;margin: 0px 0px 20px;color: #b5fdec;}
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-top: 100px;
         text-align: center;
         gap: 30px;
     }
