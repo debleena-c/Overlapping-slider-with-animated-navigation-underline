@@ -65,7 +65,7 @@ body{font-family: 'Inter', sans-serif; color: #000; line-height: 1;position: rel
     background: rgba(255,255,255,.95);}
 
  /*-----------banner------------------*/
-.banner_main{width: 100%;height: 100vh; position: relative;}
+.banner_main{width: 100%;height: 100vh; position: relative;overflow: hidden;}
 .video-slide{width: 100%;height: 100%; position: absolute;top: 0;left: 0;clip-path: circle(0% at 0 50%);}
 .video-slide video{
     width: 100%;
