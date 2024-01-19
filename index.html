@@ -206,6 +206,30 @@
         });
     </script> -->
 
+    <!-- slider -->
+    <script>
+        const sliderIndicator = document.querySelectorAll(".slider-btn")
+        const slides = document.querySelectorAll(".video-slide")
+
+        var Slidernav = function(manual){
+            sliderIndicator.forEach((btn) => {
+                btn.classList.remove("active");
+            });
+            slides.forEach((slide) => {
+                slide.classList.remove("active");
+            });
+            sliderIndicator[manual].classList.add("active");
+            slides[manual].classList.add("active");
+            
+        }
+        sliderIndicator.forEach((btn, i) =>{
+            btn.addEventListener("click", () => {
+                Slidernav(i);
+            });
+        });
+    </script>
+    
+    <!-- navigation underline dynamic -->
     <script type="text/javascript">
         function createMarker() {
             const marker = document.createElement('div');

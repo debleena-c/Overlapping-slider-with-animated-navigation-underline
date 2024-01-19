@@ -1,0 +1,18 @@
+.team-img{
+    height: 350px;
+    background: url(../images/6d47d175c6da489ae994114feda55290.jpg) no-repeat center;
+    color: #fff !important;
+    width: 350px;
+    position: relative;
+    overflow: hidden;
+}
+.team-text{
+    writing-mode: vertical-lr;
+    transition: writing-mode .5s ease, transform .5s ease;
+    
+}
+.team-img:hover .team-text{
+    writing-mode: horizontal-tb;
+    transform: scale(1) rotate(90deg);
+    transition:  writing-mode .5s ease, transform .5s ease;
+}
